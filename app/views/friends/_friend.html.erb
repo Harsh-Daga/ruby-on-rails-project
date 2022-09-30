@@ -1,0 +1,12 @@
+<div id="<%= dom_id friend %>">
+<tr>
+<td><%= friend.firstname %></td>
+<td><%= friend.lastname %></td>
+<td><%= friend.email %></td>
+<td><%= friend.phone %></td>
+<td>@<%= friend.twitter %></td>
+<td><%= link_to "Show", friend, class: "btn btn-secondary" %></td>
+<td><%= link_to "Edit", edit_friend_path(friend), class: "btn btn-secondary" %></td>
+</tr>
+
+</div>
